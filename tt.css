@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: fixed;
+    align-items: center;
+    text-align: center;
+    background-size: 280%;
+    background-position: -400px 0px;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+   
+table{
+    background-color: rgba(117, 70, 247, 0.795);
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color:#fff;
+}
+th{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+td{
+    width: 300px;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+th.hday{
+    background-color: rgba(0,0,0,0.5);
+}
